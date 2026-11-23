@@ -1,0 +1,80 @@
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-login {
+    width: 100%;
+    max-width: 440px;
+    border: 1px solid #f1f3f5;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 2.5rem;
+}
+
+.btn-primary {
+    background-color: #3d0000 !important;
+    border-color: #3d0000 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 0.7rem;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #260000 !important;
+    border-color: #260000 !important;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    border-color: #dee2e6;
+}
+
+.form-control:focus {
+    border-color: #3d0000;
+    box-shadow: 0 0 0 0.25rem rgba(61, 0, 0, 0.15);
+}
+
+.form-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+footer {
+    background-color: #3d0000;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+}
+
+a {
+    color: #3d0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
